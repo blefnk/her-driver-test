@@ -1,0 +1,69 @@
+{
+  // Project details
+  "projectAuthor": "blefnk",
+  "projectState": "",
+  "projectDomain": "",
+  "projectType": "",
+  "projectCategory": "",
+  "projectSubcategory": "",
+  
+  // Development preferences
+  "projectFramework": "nextjs",
+  "projectPackageManager": "bun",
+  "preferredLibraries": {
+    "stateManagement": "zustand",
+    "formManagement": "react-hook-form",
+    "styling": "tailwind",
+    "uiComponents": "shadcn-ui",
+    "testing": "bun",
+    "authentication": "clerk",
+    "database": "drizzle",
+    "api": "trpc"
+  },
+  
+  // Project features
+  "features": {
+    "i18n": true,
+    "analytics": false,
+    "themeMode": "dark-light",
+    "authentication": true,
+    "api": true,
+    "database": false,
+    "testing": false,
+    "docker": false,
+    "ci": false,
+    "commands": [],
+    "webview": [],
+    "language": [],
+    "themes": []
+  },
+  
+  // Code style preferences
+  "codeStyle": {
+    "dontRemoveComments": true,
+    "shouldAddComments": true,
+    "typeOrInterface": "interface",
+    "importOrRequire": "import",
+    "quoteMark": "double",
+    "semicolons": true,
+    "lineWidth": 80,
+    "indentStyle": "space",
+    "indentSize": 2,
+    "importSymbol": "~"
+  },
+  
+  // Prompts behavior (prompt | autoYes | autoNo)
+  "deployBehavior": "prompt",
+  "depsBehavior": "prompt",
+  "gitBehavior": "prompt",
+  "i18nBehavior": "prompt",
+  "scriptsBehavior": "prompt",
+  
+  // Project metadata
+  "projectName": "her-driver-test",
+  "projectRepository": "https://github.com/blefnk/her-driver-test",
+  
+  // Config revalidation (1h | 1d | 2d | 7d)
+  "configLastRevalidate": "2024-12-18T16:48:56.665Z",
+  "configRevalidateFrequency": "2d"
+}
